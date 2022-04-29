@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: "Amazon Ember Light" ;
+    src: url('AmazonEmber_Lt.ttf') format('truetype');
+  }
+
+body{
+    margin: 0 auto;
+    font-family: "Amazon Ember Light",Arial,sans-serif;
+    background-color: #222;
+    min-height: 78px;
+    
+    
+}
+
+.menu{
+    background-color:#232f3e;
+    display: flex;
+
+
+}
+.menu img{
+    margin-left: 49px;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    color: #fff;
+    width: 112px;
+    height: auto;
+    cursor: pointer;
+    
+}
+
+.menu ul{
+    margin-top: 28px;
+    margin-left: 22px;
+    list-style: none;
+    
+}
+
+.menu ul li{
+    font-size: 17px;
+    display: inline-block;
+       
+}
+.menu .negrito{
+    font-weight: bold;
+       
+}
+
+.menu #minha-area{
+    
+    margin-left: 5px;
+       
+}
+
+.menu .negrito a:hover{
+    color: #fff;
+    
+       
+}
+
+.menu a{
+    
+    padding: 5px;
+    color: rgba(242,244, 246, 0.9);
+    text-decoration: none;
+}
+.conteudo{
+    height: 100vh;
+    background: url(../img/bg.jpg) no-repeat center top;
+    background-size: cover; 
+    display: flex;
+        
+}
+.conteudo .conteudo1 {
+    color: #fff;
+}
+
+.conteudo1 h1{
+    margin-top: 150px;
+    margin-left: 90px;
+    font-size: 40px;
+}
+
+.conteudo1 p{
+    font-size: 18px;
+    margin-left: 90px;
+    margin-top: 35px;
+}
+
+/***Botão***/
+
+#botao-experimente{
+    
+    margin-top: 23px;
+    margin-left: 56.8em;
+}
+
+.experimente{
+    background-color: #0f79af;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px 18px 5px 18px;
+}
+
+
+.botao-prime{
+    margin-left: 90px;
+    margin-top: 52px;
+
+}
+.botao-prime span.botao{
+    background-color: #0f79af;
+    color: #fff;
+    text-align: center;
+    padding: 20px 50px 20px 50px;
+    border-radius: 2px;
+}
+
+.botao-prime span.botao2{
+    background-color: #0f79af;
+    color: #fff;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    border-radius: 2px;
+    
+}
+
+.botao-prime .legenda{
+    margin-left: 0;
+    margin-top: 100px;
+    font-size: 15px;
+
+
+}
