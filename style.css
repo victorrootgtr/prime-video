@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -13,16 +14,15 @@ body{
     margin: 0 auto;
     font-family: "Amazon Ember Light",Arial,sans-serif;
     background-color: #222;
-    min-height: 78px;
     
     
 }
 
 .menu{
+    min-width: 1930px;
     background-color:#232f3e;
     display: flex;
-
-    
+    position: fixed; 
 
 }
 .menu img{
@@ -31,7 +31,8 @@ body{
     margin-bottom: 20px;
     color: #fff;
     width: 112px;
-    height: auto;
+    min-width: 112px;
+    height: 34px;
     cursor: pointer;
     
 }
@@ -46,6 +47,7 @@ body{
 .menu ul li{
     font-size: 17px;
     display: inline-block;
+    height: 40px;
        
 }
 .menu .negrito{
@@ -72,6 +74,7 @@ body{
     text-decoration: none;
 }
 .conteudo{
+    min-height: 48px;
     height: 100vh;
     background: url(../img/bg.jpg) no-repeat center top;
     background-size: cover; 
@@ -83,12 +86,14 @@ body{
 }
 
 .conteudo1 h1{
+    min-width: 500px;
     margin-top: 150px;
     margin-left: 90px;
     font-size: 40px;
 }
 
 .conteudo1 p{
+    min-width: 500px;
     font-size: 18px;
     margin-left: 90px;
     margin-top: 35px;
