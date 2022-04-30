@@ -19,10 +19,9 @@ body{
 }
 
 .menu{
-    min-width: 1930px;
+    min-width: 1900px;
     background-color:#232f3e;
-    display: flex;
-    position: fixed; 
+    display: flex; 
 
 }
 .menu img{
@@ -74,7 +73,8 @@ body{
     text-decoration: none;
 }
 .conteudo{
-    min-height: 48px;
+    max-width: 1900px;
+    min-width: 1902px;
     height: 100vh;
     background: url(../img/bg.jpg) no-repeat center top;
     background-size: cover; 
@@ -169,7 +169,6 @@ body{
     padding: 8px 18px 5px 15px;
     
 }
-
 
 .botao-prime p.ou{
     font-size: 15px;
